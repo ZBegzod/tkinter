@@ -108,13 +108,6 @@ title_combobox.grid(row=1, column=2)
 age_label = ctk.CTkLabel(frame, text="Yosh")
 age_label.grid(row=2, column=0)
 
-
-def slider_event(value):
-    age_data = value
-    age_spinbox_result = ctk.CTkLabel(master=frame, text=age_data)
-    age_spinbox_result.grid(row=4, column=0)
-
-
 age_spinbox = ctk.CTkEntry(frame)
 age_spinbox.grid(row=3, column=0)
 
